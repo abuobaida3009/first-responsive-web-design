@@ -142,7 +142,63 @@ header{
     color: black;
     font-weight: 600;
  }
+ /* secound section smart area code start here  */
+ .secound-section{
+    background-color: #1c2833;
+    padding: 50px 0 100px 0;
+ }
+ .smart-title{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 0.2em;
+    margin-bottom: 60px;
+ }
+
+ .smart-area-parent{
+    margin-left: 70px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .smart-text{
+    color: white;
+ }
+ .smart-text h2{
+    margin: 20px 0;
+    font-size: 30px;
+ }
+ .smart-text a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 40px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.5s;
+ }
+ .smart-text a:hover{
+    background-color: #ffffff;
+    color: black;
+ }
+
+
+
+
+
+
+ /* secound section smart area code end here  */
     
+
+
+
+
+
+
+
  /* main section or first section responsive work start here  */
  @media only screen and (max-width: 688px) {
     #servise-parent{
@@ -151,6 +207,15 @@ header{
         grid-gap: 10px;
         width: 100%;
     }
+    .smart-area-parent{
+        margin-left: 30px;
+        margin-right: 30px;
+        display: block;
+     }
+     .smart-img img{
+        width: 100%;
+        margin-bottom: 50px;
+     }
  }
  @media only screen and (min-width: 689px) and (max-width: 1099px) {
     #servise-parent{
@@ -159,6 +224,15 @@ header{
         grid-gap: 10px;
         width: 100%;
     }
+    .smart-area-parent{
+        margin-left: 70px;
+        margin-right: 70px;
+        display: block;
+     }
+     .smart-img img{
+        width: 100%;
+        margin-bottom: 70px;
+     }
  }
  /* main section or first section responsive work end here  */
  /* main section end here   */
