@@ -247,6 +247,61 @@ header{
 }
 
  /* about section code end here */
+
+ /* advise section start here  */
+.advise-section{
+    background-color: rgb(17, 17, 17);
+    padding: 100px 0;
+    color: white;
+
+}
+.advise-parent{
+    display: flex;
+    gap: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.single-advise-img img{
+    width: 100%;
+}
+.single-advise p{
+    padding: 20px 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+.single-advise h3{
+    font-weight: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 15px;
+}
+.single-advise h4{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.single-advise a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20 0px;
+    transition: 0.5s;
+}
+.advse-icon{
+    text-align: center;
+}
+.advse-icon a{
+    margin: 0 5px;
+    border: 2px solid black;
+}
+.single-advise a:hover{
+    background-color: black;
+    color: white;
+}
+ /* advise section end here  */
     
 
 
@@ -291,6 +346,23 @@ header{
         margin-top: 50px;
     }
      /* about section end  */
+
+     /* advise section code start  */
+     .advise-parent{
+        display: block;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .advse-icon{
+        text-align: left;
+    }
+    .advse-icon a{
+        margin: 10px 5px;
+    }
+    .single-advise h3{
+        margin-top: 50px;
+    }
+     /* advise section code end  */
  }
  @media only screen and (min-width: 689px) and (max-width: 1099px) {
     /* servise section code start  */
@@ -328,6 +400,21 @@ header{
     }
 
      /* about section code end  */
+
+     /* advise section code start here  */
+     .advise-parent{
+        display: flex;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .advse-icon{
+        text-align: center;
+    }
+    .advse-icon a{
+        margin: 10px 5px;
+    }
+    
+     /* advise section code end here  */
  }
  /* main section or first section responsive work end here  */
  /* main section end here   */
