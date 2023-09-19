@@ -302,6 +302,66 @@ header{
     color: white;
 }
  /* advise section end here  */
+
+ /* contact us section start here  */
+ .contact-section{
+    background-image: linear-gradient(#3958a25e, #4089c7), url(images/7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 200px 0;
+ }
+ form{
+    background-color: #1c2833;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 50px 60px;
+    border-radius: 5px;   
+ }
+ form h2{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+ }
+ form p{
+    color: white;
+    text-align: center;
+    margin: 30px 0;
+    letter-spacing: 0.1em;
+ }
+ .form-input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 50px 0;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    border-bottom: 2px solid #97618B;
+    font-size: 18px;
+ }
+ .form-input::placeholder{
+    color: #97618B;
+    font-size: 18px;
+    font-weight: bold;
+ }
+.submit-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 5px 40px;
+    background: none;
+    color: white;
+    outline-style: ridge;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.submit-btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+ /* contact us section end here  */
     
 
 
@@ -363,6 +423,16 @@ header{
         margin-top: 50px;
     }
      /* advise section code end  */
+
+     /* contact section start here  */
+     form{
+        background-color: #1c2833;
+        max-width: 90%;
+        padding: 30px 30px; 
+     }
+
+
+     /* contact section end here  */
  }
  @media only screen and (min-width: 689px) and (max-width: 1099px) {
     /* servise section code start  */
@@ -413,8 +483,16 @@ header{
     .advse-icon a{
         margin: 10px 5px;
     }
-    
      /* advise section code end here  */
+
+     /* contact cection start here  */
+     form{
+        background-color: #1c2833;
+        max-width: 90%;
+        padding: 40px 50px; 
+     }
+     /* contact cection end here  */
+
  }
  /* main section or first section responsive work end here  */
  /* main section end here   */
