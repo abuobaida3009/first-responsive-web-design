@@ -391,7 +391,42 @@ header{
 }
  /* mach section end here  */
     
+/* take cere section start here  */
+.take-care-section{
+    padding: 100px 0;
+}
+.take-care-parent{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.single-take-cere{
+    width: 100%;
+}
+.single-take-care-img img{
+    width: 100%;
+}
+.single-take-cere h3{
+    font-size: 30px;
+}
+.single-take-cere p{
+    margin: 20px 0;
+    color: black;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+.single-take-cere ul li{
+    list-style-position: inside;
+    color: black;
+    font-weight: 600;
+    margin: 10px;
+    
 
+}
+/* take cere section end here  */
 
 
  /* main section or first section responsive work start here  */
@@ -468,6 +503,16 @@ header{
         text-align: center;
     }
      /* mach project end here  */
+     /* take care section start here  */
+     .take-care-parent{
+        display: block;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .single-take-cere{
+        margin-bottom: 80px;
+    }
+     /* take cere section end here  */
  }
  @media only screen and (min-width: 689px) and (max-width: 1099px) {
     /* servise section code start  */
@@ -537,6 +582,17 @@ header{
         margin-right: 70px;
     }
      /* mach section end here  */
+     /* take cere section start here  */
+     .take-care-parent{
+        display: block;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .single-take-cere{
+        margin-bottom: 80px;
+    }
+
+     /* take cere section end here  */
 
  }
  /* main section or first section responsive work end here  */
