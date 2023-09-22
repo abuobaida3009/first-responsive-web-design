@@ -19,7 +19,7 @@ nav{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 50px 0px 80px;  
+    padding: 0px 50px 0px 80px;
 }
 .logo{
     font-size: 22px;
@@ -90,276 +90,7 @@ nav ul li a:hover, nav ul li a.active{
     }
 }
 /* responsive work end here  */
-
 /* navber section end here  */
-
-/* header section start here  */
-header{
-    background-image: url('images/1.jpg');
-    height: 90vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-/* header section end here  */
-
- /* main section start here  */
- #first-section{
-    background-color: #1c2833;
-    padding-bottom: 100px;
- }
- .first-heading{
-    text-align: center;
-    color: white;
-    padding: 50px 0;
-    letter-spacing: 0.2em;
-    font-size: 30px;
- }
- #servise-parent{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 25px;
-    width: 1100px;
-    margin: 0 auto;
- }
- .single-servise{
-    background-color: white;
-    text-align: center;
-    color: black;
-    padding: 30px 20px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px rgb(22, 22, 22);
- }
- .single-servise i{
-    font-size: 40px;
- }
- .single-servise h2{
-    margin: 10px 0;
-    font-weight: bold;
- }
-.single-servise p{
-    color: black;
-    font-weight: 600;
- }
- /* secound section smart area code start here  */
- .secound-section{
-    background-color: #1c2833;
-    padding: 50px 0 100px 0;
- }
- .smart-title{
-    text-align: center;
-    color: white;
-    font-size: 35px;
-    letter-spacing: 0.2em;
-    margin-bottom: 60px;
- }
- .smart-area-parent{
-    margin-left: 70px;
-    margin-right: 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- }
- .smart-text{
-    color: white;
- }
- .smart-text h2{
-    margin: 20px 0;
-    font-size: 30px;
- }
- .smart-text a{
-    text-decoration: none;
-    background-color: black;
-    color: white;
-    display: inline-block;
-    padding: 10px 30px;
-    margin-top: 40px;
-    font-weight: 700;
-    border-radius: 5px;
-    transition: 0.5s;
- }
- .smart-text a:hover{
-    background-color: #ffffff;
-    color: black;
- }
- /* secound section smart area code end here  */
-
- /* about section code start here */
- .about-section{
-    background-image: url(images/5.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    padding: 150px 0;
- }
-.about-parent{
-    display: flex;
-    gap: 30px;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    color: white;
-}
-.more-about-vanilla h4{
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-.more-about-vanilla ul{
-    margin: 20px 0;
-    list-style-position: inside;
-}
-.more-about-vanilla a{
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    background-color: #017FBA;
-    color: white;
-    font-weight: 700;
-    padding: 10px 20px;
-    margin-top: 20px;
-    border-radius: 5px;
-    transition: 0.5s;
-}
-.more-about-vanilla a:hover{
-    background-color: #094242;
-}
-.about-single-iteam-parent{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 25px;
-}
-.about-single-iteam{
-    background-color: #eaecee;
-    color: black;
-    padding: 40px 20px;
-    border-radius: 5px;
-    text-align: center;
-}
-.about-single-iteam h4{
-    font-size: 20px;
-    padding: 10px 0 20px 0;
-}
-.about-single-iteam p{
-    color: black;
-    font-weight: 600;
-}
- /* about section code end here */
-
- /* advise section start here  */
-.advise-section{
-    background-color: rgb(17, 17, 17);
-    padding: 100px 0;
-    color: white;
-}
-.advise-parent{
-    display: flex;
-    gap: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-.single-advise-img img{
-    width: 100%;
-}
-.single-advise p{
-    padding: 20px 0;
-    line-height: 1.5;
-    text-align: justify;
-}
-.single-advise h3{
-    font-weight: 20px;
-    border-bottom: 2px solid white;
-    padding-bottom: 15px;
-}
-.single-advise h4{
-    margin-top: 10px;
-    font-size: 25px;
-}
-.single-advise a{
-    text-decoration: none;
-    background-color: white;
-    color: black;
-    font-weight: 600;
-    padding: 10px 30px;
-    border-radius: 20px;
-    font-size: 18px;
-    display: inline-block;
-    margin-top: 20 0px;
-    transition: 0.5s;
-}
-.advse-icon{
-    text-align: center;
-}
-.advse-icon a{
-    margin: 0 5px;
-    border: 2px solid black;
-}
-.single-advise a:hover{
-    background-color: black;
-    color: white;
-}
- /* advise section end here  */
-
- /* contact us section start here  */
- .contact-section{
-    background-image: linear-gradient(#3958a25e, #4089c7), url(images/7.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 100px 0;
- }
- form{
-    background-color: #1c2833;
-    max-width: 50%;
-    margin: 0 auto;
-    padding: 50px 60px;
-    border-radius: 5px;   
- }
- form h2{
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    letter-spacing: 0.1em;
- }
- form p{
-    color: white;
-    text-align: center;
-    margin: 30px 0;
-    letter-spacing: 0.1em;
- }
- .form-input{
-    display: block;
-    width: 100%;
-    height: 40px;
-    margin: 50px 0;
-    border: none;
-    outline: none;
-    background: none;
-    color: white;
-    border-bottom: 2px solid #97618B;
-    font-size: 18px;
- }
- .form-input::placeholder{
-    color: #97618B;
-    font-size: 18px;
-    font-weight: bold;
- }
-.submit-btn{
-    display: block;
-    margin: 0 auto;
-    padding: 5px 40px;
-    background: none;
-    color: white;
-    outline-style: ridge;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.submit-btn:hover{
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
- /* contact us section end here  */
-
  /* mach section start here  */
  .sixth-section{
     background-color: #1C2833;
@@ -393,43 +124,7 @@ header{
     letter-spacing: 0.1em;
 }
  /* mach section end here  */
-    
-/* take cere section start here  */
-.take-care-section{
-    padding: 100px 0;
-}
-.take-care-parent{
-    display: flex;
-    margin-left: 200px;
-    margin-right: 200px;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-}
-.single-take-cere{
-    width: 100%;
-}
-.single-take-care-img img{
-    width: 100%;
-}
-.single-take-cere h3{
-    font-size: 30px;
-}
-.single-take-cere p{
-    margin: 20px 0;
-    color: black;
-    font-weight: 600;
-    line-height: 1.2em;
-}
-.single-take-cere ul li{
-    list-style-position: inside;
-    color: black;
-    font-weight: 600;
-    margin: 10px;
-}
-/* take cere section end here  */
-/* footer section start here  */
-footer{
+ footer{
     background-color: #1C2833;
     padding: 100px 0 50px 0;
     color: white;
@@ -471,10 +166,8 @@ footer{
     color: yellow;
 }
 /* footer section end here  */
-
-
- /* main section or first section responsive work start here  */
- @media only screen and (max-width: 688px) {
+/* main section or first section responsive work start here  */
+@media only screen and (max-width: 688px) {
     /* servise section code start  */
     #servise-parent{
         display: grid;
@@ -509,7 +202,6 @@ footer{
         margin-top: 50px;
     }
      /* about section end  */
-
      /* advise section code start  */
      .advise-parent{
         display: block;
@@ -526,7 +218,6 @@ footer{
         margin-top: 50px;
     }
      /* advise section code end  */
-
      /* contact section start here  */
      form{
         background-color: #1c2833;
@@ -534,7 +225,6 @@ footer{
         padding: 30px 30px; 
      }
      /* contact section end here  */
-
      /* mach project start here  */
      .mach-parent{
         display: grid;
@@ -557,7 +247,6 @@ footer{
         margin-bottom: 80px;
     }
      /* take cere section end here  */
-
      /* footer section start here  */
      .footer-parent{
         display: block;
@@ -572,7 +261,6 @@ footer{
         display: flex;
         justify-content: center;
     }
-
     /* footer section end here  */
  }
  @media only screen and (min-width: 689px) and (max-width: 1099px) {
@@ -584,7 +272,6 @@ footer{
         width: 100%;
     }
     /* servise section code end  */
-
     /* smart section code start  */
     .smart-area-parent{
         margin-left: 70px;
@@ -596,7 +283,6 @@ footer{
         margin-bottom: 70px;
      }
      /* smart section code end  */
-
      /* about section code start  */
      .about-parent{
         display: block;
@@ -610,7 +296,6 @@ footer{
         margin-top: 50px;
     }
      /* about section code end  */
-
      /* advise section code start here  */
      .advise-parent{
         display: flex;
@@ -624,7 +309,6 @@ footer{
         margin: 10px 5px;
     }
      /* advise section code end here  */
-
      /* contact cection start here  */
      form{
         background-color: #1c2833;
@@ -632,7 +316,6 @@ footer{
         padding: 40px 50px; 
      }
      /* contact section end here  */
-
      /* mach section start here  */
      .mach-parent{
         display: grid;
@@ -652,15 +335,11 @@ footer{
         margin-bottom: 80px;
     }
      /* take cere section end here  */
-
      /* footer cection start here  */
      .footer-parent{
         margin-left: 30px;
         margin-right: 30px;
      }
      /* footer cection end here  */
-
  }
- /* main section or first section responsive work end here  */
-
 
