@@ -427,6 +427,50 @@ header{
 
 }
 /* take cere section end here  */
+/* footer section start here  */
+footer{
+    background-color: #1C2833;
+    padding: 100px 0 50px 0;
+    color: white;
+}
+.footer-parent{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 80px;
+}
+.single-footer{
+    width: 100%;
+    color: white;
+}
+.single-footer h5{
+    margin-bottom: 20px;
+    letter-spacing: 0.2em;
+}
+.single-footer2 p{
+    margin: 15px;
+}
+.single-footer2 a{
+    text-decoration: none;
+    color: white;
+}
+.single-foter-3 ul{
+    display: flex;
+}
+.single-foter-3 ul li{
+    list-style: none;
+}
+.single-foter-3 ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+
+}
+.single-footer h5 span{
+    color: yellow;
+}
+/* footer section end here  */
 
 
  /* main section or first section responsive work start here  */
@@ -512,7 +556,26 @@ header{
     .single-take-cere{
         margin-bottom: 80px;
     }
+    
      /* take cere section end here  */
+
+     /* footer section start here  */
+     .footer-parent{
+        display: block;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .single-footer{
+        text-align: center;
+        margin: 10px 0;
+    }
+    .single-foter-3 ul{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    /* footer section end here  */
  }
  @media only screen and (min-width: 689px) and (max-width: 1099px) {
     /* servise section code start  */
@@ -594,6 +657,14 @@ header{
 
      /* take cere section end here  */
 
+     /* footer cection start here  */
+     .footer-parent{
+        margin-left: 30px;
+        margin-right: 30px;
+     }
+     /* footer cection end here  */
+
  }
  /* main section or first section responsive work end here  */
  /* main section end here   */
+
